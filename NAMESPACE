@@ -1,0 +1,2 @@
+export("select.nspike","hdpc_est","pc_adjust")
+importFrom("stats", "ksmooth","runif","uniroot","na.omit")

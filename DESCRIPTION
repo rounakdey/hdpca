@@ -1,0 +1,15 @@
+Package: hdpca
+Type: Package
+Title: Principal Component Analysis in High-Dimensional Data
+Version: 1.1.2
+Date: 2019-08-12
+Author: Rounak Dey, Seunggeun Lee
+Maintainer: Rounak Dey <deyrnk@umich.edu>
+Description: In high-dimensional settings:
+	Estimate the number of distant spikes based on the Generalized Spiked Population (GSP) model.
+	Estimate the population eigenvalues, angles between the sample and population eigenvectors, correlations between the sample and population PC scores, and the asymptotic shrinkage factors.
+	Adjust the shrinkage bias in the predicted PC scores.
+Depends: R (>= 3.0.0)
+License: GPL (>=2)
+Repository: CRAN
+Imports: lpSolve, boot
